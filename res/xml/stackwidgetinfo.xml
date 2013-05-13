@@ -20,7 +20,8 @@
   android:updatePeriodMillis="3600000"
   android:previewImage="@drawable/preview"
   android:initialLayout="@layout/widget_layout"
-  android:autoAdvanceViewId="@id/stack_view">
+  android:autoAdvanceViewId="@id/stack_view"
+  android:widgetCategory="keyguard|home_screen">
 </appwidget-provider>
 <!--to enable resizing:
  android:resizeMode="horizontal|vertical" -->
